@@ -57,7 +57,7 @@ class CycleTimeForAcceptedStories
       activity_with_envelope = get("projects/#{$project_id}/activity", "offset=#{offset}&envelope=true")
       activity_items = activity_with_envelope['data']
       #set the total to the total number of activities we want to scan 15000 will give us about 6 months.
-      total = 15000
+      total = 500
 
       activity_items.each do |activity|
         activity['changes'].each do |change_info|
