@@ -24,6 +24,8 @@ i.e.
 # Second Iteration: Fine tune the tags and story count
 Now that you have validated that you can collect the data from your project, you will want to think about the `epic_priority` tags. This is used to 'cleanse' the dataset. If stories have more than 1 tag, you can select which tag should take priority. I put any stories that do not have tags or are not an "epic_priority" into the "maintenance" group.
 
+If stories are missing tags, I would recommend taking 30 mintues to go through your last few months to add missing tags. You can just update the spreadsheet in post-processing, but tagging the source will prevent you from needing to do that next quarter.
+
 You may notice that you are only getting a few weeks worth of stories in the output. You will need to increase the variable `total` so that you get the right amount of data. I usually use `15000` to get 6 months worth of data. 
 
 # Data Analysis
