@@ -8,7 +8,9 @@ If you are providing a feature in the public cloud, your cost may be modeled lik
 
 Cost = Employee Cost + IaaS Cost
 
-The Pivotal Tracker UI will show you many different ways to analyze data from a given project. One type of data analysis that isn't available from the UI is how much time your team is spending on each epic. This script was created to pull the cycle time for each story so that the data can be aggregated an analyzed.
+The Pivotal Tracker UI will show you many different ways to analyze data from a given project. One type of data analysis that isn't available from the UI is how much time your team is spending on each epic. This script was created to pull the cycle time for each story so that the data can be aggregated an analyzed. Here is a sample report:
+
+![Image of Sample Report](https://github.com/mjj209/product_manager_tooling/blob/master/QuarterlyAnalysis.png)
 
 # Intro: to use this script the first time...
 1. Clone this repo
