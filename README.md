@@ -43,8 +43,8 @@ Here are some commons questions I ask myself after I have my cleansed dataset:
  - Is the time we spent on this epic commensurate with the value provided by the feature?
  - If we spent more time than there is value, what can we do to reduce this time in the next quarter?
  
-1. Are there any epics that we spent very little time on, but provide a large amount of value?
+2. Are there any epics that we spent very little time on, but provide a large amount of value?
 - Call these out as wins
 - Investigate how we can replicate this for other epics
 
-1. From last quarter, did we actually reduce the amount of time we spent on an epic we believed was low value?
+3. From last quarter, did we actually reduce the amount of time we spent on an epic we believed was low value?
