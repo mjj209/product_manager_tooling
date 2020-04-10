@@ -5,7 +5,7 @@
             {
                 "name": "vc.0",
                 "type": "vcva",
-				"customBuild": "ob-7363249"
+		"customBuild": "ob-7363249"
             }
         ],
     "esx":
@@ -13,7 +13,7 @@
             {
                 "name": "esx.0",
                 "style": "fullInstall",
-				"customBuild": "ob-5969303",
+		"customBuild": "ob-5969303",
                 "iScsi": true
             }
         ],
