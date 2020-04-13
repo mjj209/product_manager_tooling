@@ -4,13 +4,6 @@ $testbed = Proc.new do
   {
     "name" => "testbed-test",
     "version" => 3,
-    "isci" => [
-      {
-	 "name" => "iscsi.0",
-	 "luns"=> [100]
-      }
-    ],
-	
     "esx" => (0..1).map do | idx |
       {
         "name" => "esx.#{idx}",
@@ -41,6 +34,13 @@ $testbed = Proc.new do
             "dc" => "vcqaDC"
           }
         ]
+      }
+    ],
+	  
+    "isci" => [
+      {
+	 "name" => "iscsi.0",
+	 "luns"=> [100]
       }
     ]
  
