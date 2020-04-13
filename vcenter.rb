@@ -40,7 +40,7 @@ $testbed = Proc.new do
     "isci" => [
       {
 	 "name" => "iscsi.0",
-	 "luns"=> [100]
+	 "luns"=> 100
       }
     ]
  
