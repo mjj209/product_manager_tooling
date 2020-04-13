@@ -4,6 +4,13 @@ $testbed = Proc.new do
   {
     "name" => "testbed-test",
     "version" => 3,
+	"isci" => [
+      {
+		"name" => "iscsi.0",
+		"luns"=> [100]
+      }
+    ]
+	
     "esx" => (0..1).map do | idx |
       {
         "name" => "esx.#{idx}",
@@ -11,7 +18,7 @@ $testbed = Proc.new do
         "dc" => "vcqaDC",
         "clusterName" => "cluster0",
         "style" => "fullInstall",
-        "cpus" => 12, # 12 vCPUs
+        "cpus" => 4, # 4 vCPUs
         "memory" => 48000, # 48GB memory
         "disks" => [ 15 * oneGB, 15 * oneGB ],
         "guestOSlist" => [         
@@ -31,11 +38,11 @@ $testbed = Proc.new do
         "clusters" => [
           {
             "name" => "cluster0",
-            "dc" => "vcqaDC",
-          },
+            "dc" => "vcqaDC"
+          }
         ]
       }
-    ],
+    ]
  
     "beforePostBoot" => Proc.new do |runId, testbedSpec, vmList, catApi, logDir|
     end,
