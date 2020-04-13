@@ -9,7 +9,7 @@ $testbed = Proc.new do
 	 "name" => "iscsi.0",
 	 "luns"=> [100]
       }
-    ]
+    ],
 	
     "esx" => (0..1).map do | idx |
       {
