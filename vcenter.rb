@@ -11,6 +11,8 @@ $testbed = Proc.new do
         "dc" => "vcqaDC",
         "clusterName" => "cluster0",
         "style" => "fullInstall",
+        "cpus" => 12, # 12 vCPUs
+        "memory" => 48000, # 48GB memory
         "disks" => [ 15 * oneGB, 15 * oneGB ],
         "guestOSlist" => [         
           {
@@ -30,8 +32,6 @@ $testbed = Proc.new do
           {
             "name" => "cluster0",
             "dc" => "vcqaDC",
-            "enableDrs" => true,
-            "enableHA" => true,
           },
         ]
       }
