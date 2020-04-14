@@ -4,13 +4,7 @@ $testbed = Proc.new do
   {
     "name" => "testbed-test",
     "version" => 3,
-    "isci" => [
-      {
-        "name" => "iscsi.0",
-        "luns"=> [100]
-      }
-    ],
-    "esx" => (0..1).map do | idx |
+    "esx" => (0..0).map do | idx |
       {
         "name" => "esx.#{idx}",
         "vc" => "vc.0",
@@ -18,8 +12,8 @@ $testbed = Proc.new do
         "clusterName" => "cluster0",
         "style" => "fullInstall",
         "cpus" => 4, # 4 vCPUs
-        "memory" => 48000, # 48GB memory
-        "disks" => [ 15 * oneGB, 15 * oneGB ],
+        "memory" => 98000, # 98GB memory
+        "disks" => [ 1000 * oneGB, 1000 * oneGB ],
         "guestOSlist" => [         
           {
             "vmName" => "centos-vm.#{idx}",
