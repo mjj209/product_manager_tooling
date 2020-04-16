@@ -8,7 +8,7 @@ $testbed = Proc.new do
       {
         "name" => "esx.#{idx}",
         "vc" => "vc.0",
-        "customBuild" => "ob-13695499",
+        "customBuild" => "ob-14320388",
         "dc" => "vcqaDC",
         "clusterName" => "cluster0",
         "style" => "fullInstall",
