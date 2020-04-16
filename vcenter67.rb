@@ -8,7 +8,6 @@ $testbed = Proc.new do
       {
         "name" => "esx.#{idx}",
         "vc" => "vc.0",
-        "customBuild" => "ob-14320388",
         "dc" => "vcqaDC",
         "clusterName" => "cluster0",
         "style" => "fullInstall",
@@ -28,7 +27,6 @@ $testbed = Proc.new do
       {
         "name" => "vc.0",
         "type" => "vcva",
-        "customBuild" => "ob-15808844",
         "dcName" => ["vcqaDC"],
         "clusters" => [
           {
