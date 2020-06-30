@@ -1,6 +1,6 @@
 # Analyzing story cycle time from Pivotal Tracker
 
-It is important to understand how much time your team is working on a given feature set. I will generally review this once a quarter. The time spent working on a feature set, or epic, is part of the cost of building or maintaining the feature. I like to look at value as:
+It is important to understand how much time your team is working on a given feature set so that you can do cost/benefit analysis on the work. I will generally review this once a quarter. The time spent working on a feature set, or epic, is part of the cost of building or maintaining the feature. I like to look at value as:
 
 Value = Benefit - Cost
 
