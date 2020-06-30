@@ -48,8 +48,3 @@ Here are some commons questions I ask myself after I have my cleansed dataset:
 - Investigate how we can replicate this for other epics
 
 3. From last quarter, did we actually reduce the amount of time we spent on an epic we believed was low value?
-
-but here, I've updated master
-
-here I've added a change at the bottom of the file
-and here's my 2nd commit
